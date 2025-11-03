@@ -13,9 +13,9 @@
 
    //Determine the winner 9 cases using if else and switch//
    let theWinnerMessage = "";
-   if (playerChoice === "Bear") {
+   if (playersChoice === "Bear") {
   
-   switch (computerChoice) {
+   switch (computersChoice) {
     case 1 = "Bear":
       theWinnerMessage = "Tie!";
       break;
@@ -29,9 +29,9 @@
         break;
   }
 
-} else if (playerChoice === "Ninja") {
+} else if (playersChoice === "Ninja") {
 
-  switch (computerChoice) {
+  switch (computersChoice) {
     case 4 = "Ninja":
       theWinnerMessage = "Tie!";
       break;
@@ -44,9 +44,9 @@
     default:
      break
   }
-} else if (playerChoice === "Hunter") {
+} else if (playersChoice === "Hunter") {
 
-  switch (computerChoice) {
+  switch (computersChoice) {
     case 7 = "Hunter":
       theWinnerMessage = "Tie!";
       break;
@@ -63,7 +63,7 @@
 } 
 
  // Game results/Winner message //
-  const theResults = `${playerName}, You picked ${playersChoice}! The computer picked ${computersChoice}! {theWinnerMessage}`;
+  const theResults = `${playerName}, You picked ${playersChoice}! The computer picked ${computersChoice}! ${theWinnerMessage}`;
   document.getElementById('gameResults').innerHTML = theResults; 
     
    

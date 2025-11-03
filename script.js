@@ -13,7 +13,7 @@
 
    //Determine the winner 9 cases using if else and switch//
    let theWinnerMessage = "";
-   if (playersChoice === "Bear") {
+   if (playersChoice === "Bear" || "bear") {
   
    switch (computersChoice) {
     case "Bear":
@@ -29,7 +29,7 @@
         break;
   }
 
-} else if (playersChoice === "Ninja") {
+} else if (playersChoice === "Ninja" || "ninja") { //checks for upper or lower case
 
   switch (computersChoice) {
     case "Ninja":
@@ -44,7 +44,7 @@
     default:
      break
   }
-} else if (playersChoice === "Hunter") {
+} else if (playersChoice === "Hunter" || "hunter") {
 
   switch (computersChoice) {
     case "Hunter":

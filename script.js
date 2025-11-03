@@ -65,7 +65,7 @@
  // Game results/Winner message //
   const theResults = `${playerName}, You picked ${playersChoice}! The computer picked ${computersChoice}! ${theWinnerMessage}`;
   document.getElementById('gameResults').innerHTML = theResults; 
-  console.log(theResults);
+ 
     
    
 

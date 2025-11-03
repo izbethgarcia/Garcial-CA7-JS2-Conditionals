@@ -16,13 +16,13 @@
    if (playersChoice === "Bear") {
   
    switch (computersChoice) {
-    case 1 = "Bear":
+    case "Bear":
       theWinnerMessage = "Tie!";
       break;
-    case 2 =  "Ninja":
+    case "Ninja":
       theWinnerMessage  = "You win!";
       break;
-    case 3 = "Hunter":
+    case  "Hunter":
       theWinnerMessage = "Computer wins!";
       break;
     default:
@@ -32,13 +32,13 @@
 } else if (playersChoice === "Ninja") {
 
   switch (computersChoice) {
-    case 4 = "Ninja":
+    case "Ninja":
       theWinnerMessage = "Tie!";
       break;
-    case 5 = "Bear":
+    case  "Bear":
       theWinnerMessage = "Computer wins!";
       break;
-    case 6 = "Hunter":
+    case  "Hunter":
       theWinnerMessage = "You win!";
       break;
     default:
@@ -47,13 +47,13 @@
 } else if (playersChoice === "Hunter") {
 
   switch (computersChoice) {
-    case 7 = "Hunter":
+    case "Hunter":
       theWinnerMessage = "Tie!";
       break;
-    case 8 = "Bear":
+    case "Bear":
       theWinnerMessage = "You win!";
       break;
-    case 9 = "Ninja":
+    case  "Ninja":
       theWinnerMessage = "Computer wins!";
       break;
     default:

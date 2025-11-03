@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #6bd7f2;
+  background-color: #f4f4f9;
   text-align: center;
   margin-top: 60px;
-  color: #dd1f1f;
+  color:#333;
 }
 
 p {
@@ -12,7 +12,7 @@ p {
 }
 
 h1 {
-  color: #e4e9ec;
+  color: #1b6ca8;
   margin-bottom: 30px;
 }
 

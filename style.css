@@ -1,27 +1,22 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+  background-color: #6bd7f2;
   text-align: center;
   margin-top: 60px;
-  color: #333;
-}
-
-h1 {
-  color: #1b6ca8;
-  margin-bottom: 30px;
-}
-
-#results {
-  background-color: #eaf4ff;
-  border-radius: 10px;
-  display: inline-block;
-  padding: 20px;
-  margin-top: 30px;
-  min-width: 300px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  color: #dd1f1f;
 }
 
 p {
   font-size: 1.1em;
   color: #333;
+}
+
+h1 {
+  color: #e4e9ec;
+  margin-bottom: 30px;
+}
+
+#results {
+  background-color: #eaf4ff;
+    padding: 20px;
 }

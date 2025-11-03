@@ -1,49 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="author" content=" Lizbeth Garcia">
- </head>
-<body>  
-  <p>id="gameResults>Display results</p>  
-<script>
-    //Welcome banner and ask for players name//
-  let playerName = prompt('Welcome to Bear Hunter Ninja! Please enter your name to get started:  ');
-  //Greet Player with their name//
-  let greetPlayer = `Hi ${playerName} Let's Play!`;
-  alert(greetPlayer);
-  //Ask players choice//
-  let playersChoice = prompt('Who are you: bear, Ninja, or Hunter?')
-  //Computers choice//
-  let computersChoice = 'Ninja' 
-   if(playerChoice === computerChoice){
-    result = "Tie Game";
-  }
-  else{
-    switch(playerChoice){
-      case "Bear":
-        result = (computerChoice === "Ninja") ? "Player Wins!" : "Computer Wins!";
-        break;
-      case "Ninja":
-        result = (computerChoice === "Hunter") ? "Player Wins!" : "Computer Wins!";
-        break;
-      case "Hunter":
-        result = (computerChoice === "Bear") ? "Player Wins!" : "Computer Wins!";
-        break;
-    }
-  }
-  // Personalized game results//
-  const theResults = `${playerName}, You picked ${playersChoice}! The computer picked ${computersChoice}'
-  
-  
-   
-   document.getElementById('gameResults').innerHTML = 'theResults'
-    
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="[Your Name]">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bear Ninja Hunter - BIO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <h1> Bear Ninja Hunter </h1>
+  <p id="gameResults">Your results will appear here...</p>
 
-</script>
-
+  <script src="script.js"></script>
 </body>
 </html>
